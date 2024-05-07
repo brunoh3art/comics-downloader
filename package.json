@@ -1,0 +1,22 @@
+{
+  "name": "comics-downloader",
+  "version": "0.0.1",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run index.ts",
+    "build-exect": "bun build index.ts --compile --minify --outfile dist/comics"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@lifeomic/attempt": "^3.1.0",
+    "axios": "^1.6.8",
+    "sharp": "^0.33.3",
+    "ts-pattern": "^5.1.1"
+  }
+}
